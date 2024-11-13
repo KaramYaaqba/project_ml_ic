@@ -19,7 +19,7 @@ Ensure you have the following installed on your machine:
 
 2. Create a Conda environment with a specific name (e.g., `image_predict_env`) and install the required dependencies:
    ```bash
-   conda create -n image_predict_env python=3.9 -f environment.yml
+   conda env create -n image_predict_env -f environment.yml
    ```
 
 3. Verify the setup by running:
