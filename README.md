@@ -20,14 +20,8 @@ Ensure you have the following installed on your machine:
 2. Create a Conda environment with a specific name (e.g., `image_predict_env`) and install the required dependencies:
    ```bash
    conda env create -n image_predict_env -f environment.yml
+   conda activate image_predict_env
    ```
-
-3. Verify the setup by running:
-   ```bash
-   python --version
-   ```
-   Ensure Python 3.9 or higher is being used within the Conda environment.
-
 ## Usage
 
 Run the following command to predict the category of an image:
